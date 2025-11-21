@@ -83,6 +83,7 @@ text = "Hey, wake up! It's time to make a video games."
 fit_content = true
 
 [node name="ActionButtonsVBoxContainer" type="VBoxContainer" parent="VBoxContainer"]
+unique_name_in_owner = true
 layout_mode = 2
 
 [node name="Button" type="Button" parent="VBoxContainer/ActionButtonsVBoxContainer"]
